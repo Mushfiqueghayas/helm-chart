@@ -1,8 +1,8 @@
 # helm-chart
 
-helm create payment
+      helm create payment
 
-helm create shipping
+      helm create shipping
 
 go inside clone repo
 
@@ -14,4 +14,4 @@ goto setting>pages select the branch and "/root" option
 
   <img width="1531" height="537" alt="image" src="https://github.com/user-attachments/assets/0bc1e6e9-ad54-4ad0-9edb-5640546eb32e" />
   
-helm repo add helm-chart-1 https://mushfiqueghayas.github.io/helm-chart/  
+      helm repo add helm-chart-1 https://mushfiqueghayas.github.io/helm-chart/  
