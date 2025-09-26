@@ -4,6 +4,11 @@
 
       helm create shipping
 
+Package the chart
+
+      helm package payment
+      helm package shipping
+
 go inside clone repo
 
       helm repo index . --url https://mushfiqueghayas.github.io/helm-chart/
