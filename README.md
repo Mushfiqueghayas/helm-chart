@@ -12,9 +12,11 @@ to generate the github.io url, which can be used in the command "helm repo add <
 
 goto setting>pages select the branch and "/root" option
 
-  <img width="1531" height="537" alt="image" src="https://github.com/user-attachments/assets/0bc1e6e9-ad54-4ad0-9edb-5640546eb32e" />
-  
+<img width="1531" height="537" alt="image" src="https://github.com/user-attachments/assets/0bc1e6e9-ad54-4ad0-9edb-5640546eb32e" />
+
       helm repo add helm-chart-1 https://mushfiqueghayas.github.io/helm-chart/  
+
+<img width="1195" height="152" alt="image" src="https://github.com/user-attachments/assets/eb3bf8d4-fca4-4a3f-a41e-8780031eb69d" />
 
 to add more service or charts in this repo, 
 
