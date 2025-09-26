@@ -4,7 +4,7 @@
 
       helm create shipping
 
-Package the chart
+Package the chart  - it create a tgz file
 
       helm package payment
       helm package shipping
