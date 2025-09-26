@@ -8,7 +8,11 @@ go inside clone repo
 
       helm repo index . --url https://mushfiqueghayas.github.io/helm-chart/
 
-to generate the github.io url, which can be used in the command "helm repo add <URL>"
+Helm creates an index.yaml file in the current directory (or updates an existing one). This file acts as the chart repository index, listing information about all packaged charts (.tgz files) it finds in the directory.
+
+The --url option specifies the base URL where the chart artifacts will be hosted. When Helm generates the index.yaml, it uses this URL to tell clients (including Helm itself) where to fetch the actual chart packages when the repo is added remotely
+
+# to generate the github.io url, which can be used in the command "helm repo add <URL>"
 
 goto setting>pages select the branch and "/root" option
 
@@ -18,7 +22,7 @@ goto setting>pages select the branch and "/root" option
 
 <img width="1195" height="152" alt="image" src="https://github.com/user-attachments/assets/eb3bf8d4-fca4-4a3f-a41e-8780031eb69d" />
 
-to add more service or charts in this repo, 
+# to add more service or charts in this repo, 
 
      1. you need to create chart local and package it
      2.  move it to cloned repo 
