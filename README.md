@@ -15,3 +15,16 @@ goto setting>pages select the branch and "/root" option
   <img width="1531" height="537" alt="image" src="https://github.com/user-attachments/assets/0bc1e6e9-ad54-4ad0-9edb-5640546eb32e" />
   
       helm repo add helm-chart-1 https://mushfiqueghayas.github.io/helm-chart/  
+
+to add more service or charts in this repo, 
+
+     1. you need to create chart local and package it
+     2.  move it to cloned repo 
+     3. run "helm repo index" command to update the index.html file
+     4. push both newly added service tgz file and index.html file to the remote repo
+
+after push, update the update the added locally
+
+      helm repo update <repo_name>
+
+      
