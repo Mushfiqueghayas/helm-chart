@@ -9,6 +9,7 @@ Package the chart  - it create a tgz file
       helm package payment
       helm package shipping
 
+copy the package into the cloned repo, after copying run the "helm repo index" command only from the cloned repo.
 go inside clone repo
 
       helm repo index . --url https://mushfiqueghayas.github.io/helm-chart/
