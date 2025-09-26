@@ -9,6 +9,10 @@ Package the chart  - it create a tgz file
       helm package payment
       helm package shipping
 
+
+<img width="1563" height="315" alt="image" src="https://github.com/user-attachments/assets/003e1dcd-9d44-44cc-92d0-9aec0aa1a4fe" />
+
+
 copy the package into the cloned repo, after copying run the "helm repo index" command only from the cloned repo.
 go inside clone repo
 
