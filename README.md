@@ -1,4 +1,13 @@
 # helm-chart
+
+helm create payment
+
+helm create shipping
+
+go inside clone repo
+
+      helm repo index . --url https://mushfiqueghayas.github.io/helm-chart/
+
 to generate the github.io url, which can be used in the command "helm repo add <URL>"
 
 goto setting>pages select the branch and "/root" option
