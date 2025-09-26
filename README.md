@@ -29,7 +29,7 @@ goto setting>pages select the branch and "/root" option
      3. run "helm repo index" command to update the index.html file
      4. push both newly added service tgz file and index.html file to the remote repo
 
-after push, update the update the added locally
+after push, update the repo locally
 
       helm repo update <repo_name>
 
